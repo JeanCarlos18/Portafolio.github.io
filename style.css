@@ -1,20 +1,19 @@
-section{
-    padding: auto;
+body{
+    background-color:rgba(245, 245, 245, 1)
 }
 .nombre{
-   position:absolute;
-   top:20px;
-   left: 0;
-   margin: 0 0 0 0;
-   height: 19px;
-    width: 202px;
+    position:absolute;
+    top:20px;
+    left: 0;
+    margin: 0 0 0 0;
+    height: 19px;
+    width: 302px;
     left: 32px;
     top: 20px;
-    border-radius: nullpx;
 
-   display: inline-block;
-   font-family: Raleway;
-    font-size: 16px;
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: 19px;
@@ -24,7 +23,10 @@ section{
 
   
 }
-a{
+.links a{
+    
+    margin: 0 20px;
+    padding: 3px;
     text-decoration: none;
     color: #464646;
     font-family: Raleway;
@@ -34,6 +36,10 @@ a{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    box-sizing: border-box;
+    border-color: #464646;
+    border-width:2px ;
+    border-style: dashed;
 }
 .links{
     text-decoration: none;
@@ -41,7 +47,7 @@ a{
     top:20px;
     right: 20px;
     display: inline-block;
-    margin: 0 0 0 0;
+    margin: 0 0 0 15px;
     color: #464646;
     font-family: Raleway;
     font-size: 16px;
@@ -51,8 +57,45 @@ a{
     letter-spacing: 0em;
     text-align: left;
 }
+.links a:hover{
+    color: blue;
+    font-size: 24px;
+}
+.descripcion{
+    margin: 20% 60px;
+
+    margin-right: 0;
+}
+.principal-descripcion{
+    width: 400px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(70, 70, 70, 1);
+    display: inline-block;
+}
+.detalles-descripion{
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(70, 70, 70, 1);
+    width: 300px;
+    display: inline-block;
+}
+.img-descripcion{
+    width: 400px;
+    height: 600px;
+    margin-top: 0;
+    display: inline-block;
+}
 main{
     margin-top:20%;
-    
-    
 }
