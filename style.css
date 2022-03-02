@@ -520,7 +520,7 @@ main,
 
 .form-contact-container p {
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 700;
   color: #ffffff;
   text-decoration: underline;
@@ -528,81 +528,12 @@ main,
 }
 
 .form-contact-container label {
-  font-size: 20px;
+  font-size: 40px;
   color: #bfbfbf;
   font-weight: 300;
   margin-bottom: 10px;
 }
 
-.input-pattern,
-.input-pattern:focus,
-.input-pattern:active {
-  outline: none;
-  width: 70%;
-  background-color: transparent;
-  border: none;
-  border-bottom: 1px solid #6c707c;
-  margin-bottom: 25px;
-  font-size: 13px;
-  padding: 10px;
-  color: #ffffff;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
-  -webkit-text-fill-color: #ffffff;
-  -webkit-box-shadow: 0 0 0px 1000px #161616 inset;
-  transition: background-color 5000s ease-in-out 0s;
-}
-
-.input-pattern::placeholder {
-  opacity: 0.5;
-  letter-spacing: 1px;
-  background-color: transparent;
-}
-
-.input-pattern:focus {
-  border-bottom: 1px solid #17d1ac;
-  transition: all ease 0.5s;
-}
-
-.form-mensaje-container {
-  position: absolute;
-  right: 18px;
-  top: 150px;
-  width: 50%;
-  height: 200px;
-}
-
-.form-mensaje-container textarea {
-  width: 100%;
-  height: 100%;
-  font-size: 14px;
-  color: #ffffff;
-  background-color: #161616;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  resize: none;
-}
-
-.enviar {
-  position: absolute;
-  bottom: 200px;
-  left: 450px;
-  padding: 5px 200px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #161616;
-  background-color: #17d1ac;
-  border: none;
-  transition: all 0.5s ease;
-}
-
-.enviar:hover {
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #17d1ac;
-}
 
 /* seccion footer */
 
