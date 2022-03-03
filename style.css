@@ -1092,6 +1092,9 @@ main,
   .soft-skills-title {
     font-size: 30px;
   }
+  .skill-icon-container h4{
+    font-size: 20px;
+  }
 
   .hard-skills-container {
     top: 19%;
