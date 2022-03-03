@@ -267,7 +267,7 @@ main,
 .hard-skills-container h4,
 .soft-skills-container h4{
   font-size: 30px;
-  color: #0e9e81;
+  color: #17d1ac;
 }
 .skill-icon-container  {
   display: flex;
@@ -326,7 +326,7 @@ main,
   background-color: #ffffff;
 }
 
-.oracle-logo,
+.educationIT-logo,
 .alura-logo,
 .ap-logo {
   display: flex;
@@ -338,7 +338,7 @@ main,
   box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.oracle-img,
+.educationIT-img,
 .alura-img,
 .ap-img {
   width: 95%;
@@ -1087,7 +1087,7 @@ main,
   .cv-btn {
     top: 86%;
   }
-
+/*secccion skills*/
   .hard-skills-title,
   .soft-skills-title {
     font-size: 30px;
@@ -1103,7 +1103,7 @@ main,
   .soft-skills-container {
     top: 58%;
   }
-
+/*seccion formacion*/
   #formacion {
     padding: 150px 10px;
   }
@@ -1119,7 +1119,7 @@ main,
     align-items: center;
   }
 
-  .oracle-logo,
+  .educationIt-logo,
   .alura-logo,
   .ap-logo {
     display: flex;
@@ -1130,8 +1130,8 @@ main,
     height: 80px;
     border-radius: 10px;
   }
-
-  .oracle-img,
+  
+  .educationIT-img,
   .alura-img,
   .ap-img {
     width: 90%;
@@ -1143,10 +1143,10 @@ main,
   }
 
   .info-btn {
-    width: 90px;
+    width: 100px;
     margin: 30px auto;
   }
-
+/*seccion proyectos*/
   .proyectos-container {
     width: 95%;
     height: 90%;
